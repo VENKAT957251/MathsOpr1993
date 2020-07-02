@@ -1,0 +1,98 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">  
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> -->
+
+<suite name="Calculator" parallel="classes" thread-count="2">
+
+<test name="ParameterAndIncludeGrp">
+
+<parameter name="value1" value="40"></parameter>
+<parameter name="value2" value="20"></parameter>
+<parameter name="value3" value="2"></parameter>
+<parameter name="value4" value="9"></parameter>
+
+
+		<groups>
+			<run>
+				<include name = "MARS"></include>
+				<include name = "EARTH"></include>
+				<!-- <exclude name= "JUPITER"></exclude> -->
+				<!-- only mars and EARTH grps will be executed -->
+			</run>
+		</groups>
+	<classes>
+		<class name="com.testexecution.java.CalculatortestNgparameter"></class>
+	</classes>
+</test>
+
+
+<test name="ParameterandExcludeGrp">
+
+<parameter name="value1" value="40"></parameter>
+<parameter name="value2" value="20"></parameter>
+<parameter name="value3" value="2"></parameter>
+<parameter name="value4" value="9"></parameter>
+
+
+		<groups>
+			<run>
+				<!-- <include name = "MARS"></include> -->
+				 <exclude name= "MARS"></exclude> 
+				 <exclude name = "JUPITER"></exclude>
+				 <!-- only earth grps will be executed -->
+			</run>
+		</groups>
+	<classes>
+		<class name="com.testexecution.java.CalculatortestNgparameter"></class>
+	</classes>
+</test>
+
+<test name="ParameterandIncludeGrp_JUPITER">
+
+<parameter name="value1" value="40"></parameter>
+<parameter name="value2" value="20"></parameter>
+<parameter name="value3" value="2"></parameter>
+<parameter name="value4" value="9"></parameter>
+
+
+		<groups>
+			<run>
+				<!-- <include name = "MARS"></include> -->
+				<!--  <exclude name= "MARS"></exclude>  -->
+				 <include name = "JUPITER"></include>
+				 <!-- only JUPITER grps will be incuted -->
+			</run>
+		</groups>
+	<classes>
+		<class name="com.testexecution.java.CalculatortestNgparameter"></class>
+	</classes>
+</test>
+
+
+<test name="DataProviderBased">
+
+<classes>
+		<class name="com.testexecution.java.MathsDataprovider"></class>
+	</classes>
+</test>
+
+
+<test name="Assertionbased">
+
+<classes>
+		<class name="com.testexecution.java.MathOpr"></class>
+	</classes>
+</test>
+
+<test name="ParellelExecution">
+
+<classes>
+		<class name="com.testexecution.java.CalcParellel1"></class>
+		<class name="com.testexecution.java.CalcParellel2"></class>
+	</classes>
+</test>
+
+
+
+
+
+</suite>

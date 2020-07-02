@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 24 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Calculator" class="navigator-link">
+              <span class="suite-name border-failed">Calculator</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Calculator" class="navigator-link ">
+                    <span>C:\eclipse-workspace\MathsJava\Calculator.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Calculator" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Calculator" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Calculator" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Calculator" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Calculator" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Calculator" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">57 methods, 24 failed,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Calculator" class="hide-methods failed suite-Calculator"> (hide)</a> <!-- hide-methods failed suite-Calculator -->
+                      <a href="#" panel-name="suite-Calculator" class="show-methods failed suite-Calculator"> (show)</a> <!-- show-methods failed suite-Calculator -->
+                    </span>
+                    <div class="method-list-content failed suite-Calculator">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Add(90, 10)">Add(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Add(8, 2)">Add(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Add(4, 2)">Add(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel2" class="method navigator-link" hash-for-method="Modulus">Modulus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Multiplication(2, 9)">Multiplication(2, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Multiplication">Multiplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Negate(40.0)">Negate(40.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Negate(40.0)">Negate(40.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Negate">Negate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Powerof(4, 2)">Powerof(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Powerof(8, 2)">Powerof(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Powerof(90, 10)">Powerof(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Powerof1(2.0, 9.0)">Powerof1(2.0, 9.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Sub(90, 10)">Sub(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Sub(8, 2)">Sub(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Sub(4, 2)">Sub(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel1" class="method navigator-link" hash-for-method="div">div</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="division(90, 10)">division(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="division(8, 2)">division(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="division(4, 2)">division(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="invert(4)">invert(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="invert(50)">invert(50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="invert(25)">invert(25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel2" class="method navigator-link" hash-for-method="invert">invert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Calculator -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Calculator" class="hide-methods passed suite-Calculator"> (hide)</a> <!-- hide-methods passed suite-Calculator -->
+                      <a href="#" panel-name="suite-Calculator" class="show-methods passed suite-Calculator"> (show)</a> <!-- show-methods passed suite-Calculator -->
+                    </span>
+                    <div class="method-list-content passed suite-Calculator">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Add(40, 20)">Add(40, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Add">Add</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel1" class="method navigator-link" hash-for-method="Add">Add</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Modulus(40, 20)">Modulus(40, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Modulus(40, 20)">Modulus(40, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Modulus(90, 10)">Modulus(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Modulus(8, 2)">Modulus(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Modulus(4, 2)">Modulus(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Modulus">Modulus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Multiplication(4, 2)">Multiplication(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Multiplication(90, 10)">Multiplication(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Multiplication(8, 2)">Multiplication(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel1" class="method navigator-link" hash-for-method="Multiplication">Multiplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Negate(4)">Negate(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Negate(25)">Negate(25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Negate(50)">Negate(50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel2" class="method navigator-link" hash-for-method="Negate">Negate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Powerof(2.0, 9.0)">Powerof(2.0, 9.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Powerof">Powerof</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel2" class="method navigator-link" hash-for-method="Powerof">Powerof</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Powerof1(90, 10)">Powerof1(90, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Powerof1(4, 2)">Powerof1(4, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathsDataprovider" class="method navigator-link" hash-for-method="Powerof1(8, 2)">Powerof1(8, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Powerof1">Powerof1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel2" class="method navigator-link" hash-for-method="Powerof1">Powerof1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Sub(40, 20)">Sub(40, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="Sub(40, 20)">Sub(40, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="Sub">Sub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalcParellel1" class="method navigator-link" hash-for-method="Sub">Sub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="div">div</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="division(40.0, 20.0)">division(40.0, 20.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.CalculatortestNgparameter" class="method navigator-link" hash-for-method="invert(40.0)">invert(40.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="com.testexecution.java.MathOpr" class="method navigator-link" hash-for-method="invert">invert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Calculator -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Calculator" class="panel Calculator">
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testexecution.java.MathOpr</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication">
+                  </a> <!-- Multiplication -->
+                  <span class="method-name">Multiplication</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [512] but found [20]
+	at com.testexecution.java.MathOpr.Multiplication(MathOpr.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate">
+                  </a> <!-- Negate -->
+                  <span class="method-name">Negate</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.testexecution.java.MathOpr.Negate(MathOpr.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testexecution.java.CalcParellel1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="div">
+                  </a> <!-- div -->
+                  <span class="method-name">div</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [21.0] but found [22.0]
+	at com.testexecution.java.CalcParellel1.div(CalcParellel1.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testexecution.java.CalcParellel2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus">
+                  </a> <!-- Modulus -->
+                  <span class="method-name">Modulus</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [3] but found [3]
+	at com.testexecution.java.CalcParellel2.Modulus(CalcParellel2.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invert">
+                  </a> <!-- invert -->
+                  <span class="method-name">invert</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.5] but found [0.02]
+	at com.testexecution.java.CalcParellel2.invert(CalcParellel2.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testexecution.java.CalculatortestNgparameter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication(2, 9)">
+                  </a> <!-- Multiplication(2, 9) -->
+                  <span class="method-name">Multiplication</span>
+                  <span class="parameters">(2, 9)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [512] but found [18]
+	at com.testexecution.java.CalculatortestNgparameter.Multiplication(CalculatortestNgparameter.java:105)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate(40.0)">
+                  </a> <!-- Negate(40.0) -->
+                  <span class="method-name">Negate</span>
+                  <span class="parameters">(40.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.CalculatortestNgparameter.Negate(CalculatortestNgparameter.java:135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate(40.0)">
+                  </a> <!-- Negate(40.0) -->
+                  <span class="method-name">Negate</span>
+                  <span class="parameters">(40.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.CalculatortestNgparameter.Negate(CalculatortestNgparameter.java:135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof1(2.0, 9.0)">
+                  </a> <!-- Powerof1(2.0, 9.0) -->
+                  <span class="method-name">Powerof1</span>
+                  <span class="parameters">(2.0, 9.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.testexecution.java.CalculatortestNgparameter.Powerof1(CalculatortestNgparameter.java:121)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testexecution.java.MathsDataprovider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add(90, 10)">
+                  </a> <!-- Add(90, 10) -->
+                  <span class="method-name">Add</span>
+                  <span class="parameters">(90, 10)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [100]
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add(8, 2)">
+                  </a> <!-- Add(8, 2) -->
+                  <span class="method-name">Add</span>
+                  <span class="parameters">(8, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [10]
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add(4, 2)">
+                  </a> <!-- Add(4, 2) -->
+                  <span class="method-name">Add</span>
+                  <span class="parameters">(4, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [6]
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof(4, 2)">
+                  </a> <!-- Powerof(4, 2) -->
+                  <span class="method-name">Powerof</span>
+                  <span class="parameters">(4, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof(8, 2)">
+                  </a> <!-- Powerof(8, 2) -->
+                  <span class="method-name">Powerof</span>
+                  <span class="parameters">(8, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof(90, 10)">
+                  </a> <!-- Powerof(90, 10) -->
+                  <span class="method-name">Powerof</span>
+                  <span class="parameters">(90, 10)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub(90, 10)">
+                  </a> <!-- Sub(90, 10) -->
+                  <span class="method-name">Sub</span>
+                  <span class="parameters">(90, 10)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [80]
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub(8, 2)">
+                  </a> <!-- Sub(8, 2) -->
+                  <span class="method-name">Sub</span>
+                  <span class="parameters">(8, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [6]
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub(4, 2)">
+                  </a> <!-- Sub(4, 2) -->
+                  <span class="method-name">Sub</span>
+                  <span class="parameters">(4, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [60] but found [2]
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="division(90, 10)">
+                  </a> <!-- division(90, 10) -->
+                  <span class="method-name">division</span>
+                  <span class="parameters">(90, 10)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [22.0] but found [9.0]
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="division(8, 2)">
+                  </a> <!-- division(8, 2) -->
+                  <span class="method-name">division</span>
+                  <span class="parameters">(8, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [22.0] but found [4.0]
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="division(4, 2)">
+                  </a> <!-- division(4, 2) -->
+                  <span class="method-name">division</span>
+                  <span class="parameters">(4, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [22.0] but found [2.0]
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invert(4)">
+                  </a> <!-- invert(4) -->
+                  <span class="method-name">invert</span>
+                  <span class="parameters">(4)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.99] but found [0.25]
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invert(50)">
+                  </a> <!-- invert(50) -->
+                  <span class="method-name">invert</span>
+                  <span class="parameters">(50)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.99] but found [0.02]
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invert(25)">
+                  </a> <!-- invert(25) -->
+                  <span class="method-name">invert</span>
+                  <span class="parameters">(25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.99] but found [0.04]
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testexecution.java.MathOpr</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add">
+                  </a> <!-- Add -->
+                  <span class="method-name">Add</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus">
+                  </a> <!-- Modulus -->
+                  <span class="method-name">Modulus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof">
+                  </a> <!-- Powerof -->
+                  <span class="method-name">Powerof</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof1">
+                  </a> <!-- Powerof1 -->
+                  <span class="method-name">Powerof1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub">
+                  </a> <!-- Sub -->
+                  <span class="method-name">Sub</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="div">
+                  </a> <!-- div -->
+                  <span class="method-name">div</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invert">
+                  </a> <!-- invert -->
+                  <span class="method-name">invert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testexecution.java.CalcParellel1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add">
+                  </a> <!-- Add -->
+                  <span class="method-name">Add</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication">
+                  </a> <!-- Multiplication -->
+                  <span class="method-name">Multiplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub">
+                  </a> <!-- Sub -->
+                  <span class="method-name">Sub</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testexecution.java.CalcParellel2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate">
+                  </a> <!-- Negate -->
+                  <span class="method-name">Negate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof">
+                  </a> <!-- Powerof -->
+                  <span class="method-name">Powerof</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof1">
+                  </a> <!-- Powerof1 -->
+                  <span class="method-name">Powerof1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testexecution.java.CalculatortestNgparameter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add(40, 20)">
+                  </a> <!-- Add(40, 20) -->
+                  <span class="method-name">Add</span>
+                  <span class="parameters">(40, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus(40, 20)">
+                  </a> <!-- Modulus(40, 20) -->
+                  <span class="method-name">Modulus</span>
+                  <span class="parameters">(40, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus(40, 20)">
+                  </a> <!-- Modulus(40, 20) -->
+                  <span class="method-name">Modulus</span>
+                  <span class="parameters">(40, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof(2.0, 9.0)">
+                  </a> <!-- Powerof(2.0, 9.0) -->
+                  <span class="method-name">Powerof</span>
+                  <span class="parameters">(2.0, 9.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub(40, 20)">
+                  </a> <!-- Sub(40, 20) -->
+                  <span class="method-name">Sub</span>
+                  <span class="parameters">(40, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub(40, 20)">
+                  </a> <!-- Sub(40, 20) -->
+                  <span class="method-name">Sub</span>
+                  <span class="parameters">(40, 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="division(40.0, 20.0)">
+                  </a> <!-- division(40.0, 20.0) -->
+                  <span class="method-name">division</span>
+                  <span class="parameters">(40.0, 20.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invert(40.0)">
+                  </a> <!-- invert(40.0) -->
+                  <span class="method-name">invert</span>
+                  <span class="parameters">(40.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+          <div class="suite-Calculator-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testexecution.java.MathsDataprovider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus(90, 10)">
+                  </a> <!-- Modulus(90, 10) -->
+                  <span class="method-name">Modulus</span>
+                  <span class="parameters">(90, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus(8, 2)">
+                  </a> <!-- Modulus(8, 2) -->
+                  <span class="method-name">Modulus</span>
+                  <span class="parameters">(8, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Modulus(4, 2)">
+                  </a> <!-- Modulus(4, 2) -->
+                  <span class="method-name">Modulus</span>
+                  <span class="parameters">(4, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication(4, 2)">
+                  </a> <!-- Multiplication(4, 2) -->
+                  <span class="method-name">Multiplication</span>
+                  <span class="parameters">(4, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication(90, 10)">
+                  </a> <!-- Multiplication(90, 10) -->
+                  <span class="method-name">Multiplication</span>
+                  <span class="parameters">(90, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiplication(8, 2)">
+                  </a> <!-- Multiplication(8, 2) -->
+                  <span class="method-name">Multiplication</span>
+                  <span class="parameters">(8, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate(4)">
+                  </a> <!-- Negate(4) -->
+                  <span class="method-name">Negate</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate(25)">
+                  </a> <!-- Negate(25) -->
+                  <span class="method-name">Negate</span>
+                  <span class="parameters">(25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Negate(50)">
+                  </a> <!-- Negate(50) -->
+                  <span class="method-name">Negate</span>
+                  <span class="parameters">(50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof1(90, 10)">
+                  </a> <!-- Powerof1(90, 10) -->
+                  <span class="method-name">Powerof1</span>
+                  <span class="parameters">(90, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof1(4, 2)">
+                  </a> <!-- Powerof1(4, 2) -->
+                  <span class="method-name">Powerof1</span>
+                  <span class="parameters">(4, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Powerof1(8, 2)">
+                  </a> <!-- Powerof1(8, 2) -->
+                  <span class="method-name">Powerof1</span>
+                  <span class="parameters">(8, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-passed -->
+        </div> <!-- panel Calculator -->
+        <div panel-name="test-xml-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse-workspace\MathsJava\Calculator.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Calculator&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;ParameterAndIncludeGrp&quot;&gt;
+    &lt;parameter name=&quot;value2&quot; value=&quot;20&quot;/&gt;
+    &lt;parameter name=&quot;value1&quot; value=&quot;40&quot;/&gt;
+    &lt;parameter name=&quot;value4&quot; value=&quot;9&quot;/&gt;
+    &lt;parameter name=&quot;value3&quot; value=&quot;2&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;MARS&quot;/&gt;
+        &lt;include name=&quot;EARTH&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testexecution.java.CalculatortestNgparameter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ParameterAndIncludeGrp --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;ParameterandExcludeGrp&quot;&gt;
+    &lt;parameter name=&quot;value2&quot; value=&quot;20&quot;/&gt;
+    &lt;parameter name=&quot;value1&quot; value=&quot;40&quot;/&gt;
+    &lt;parameter name=&quot;value4&quot; value=&quot;9&quot;/&gt;
+    &lt;parameter name=&quot;value3&quot; value=&quot;2&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;MARS&quot;/&gt;
+        &lt;exclude name=&quot;JUPITER&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testexecution.java.CalculatortestNgparameter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ParameterandExcludeGrp --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;ParameterandIncludeGrp_JUPITER&quot;&gt;
+    &lt;parameter name=&quot;value2&quot; value=&quot;20&quot;/&gt;
+    &lt;parameter name=&quot;value1&quot; value=&quot;40&quot;/&gt;
+    &lt;parameter name=&quot;value4&quot; value=&quot;9&quot;/&gt;
+    &lt;parameter name=&quot;value3&quot; value=&quot;2&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;JUPITER&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testexecution.java.CalculatortestNgparameter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ParameterandIncludeGrp_JUPITER --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;DataProviderBased&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testexecution.java.MathsDataprovider&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DataProviderBased --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Assertionbased&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testexecution.java.MathOpr&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Assertionbased --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;ParellelExecution&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testexecution.java.CalcParellel1&quot;/&gt;
+      &lt;class name=&quot;com.testexecution.java.CalcParellel2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ParellelExecution --&gt;
+&lt;/suite&gt; &lt;!-- Calculator --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ParameterAndIncludeGrp (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ParameterandExcludeGrp (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ParameterandIncludeGrp_JUPITER (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DataProviderBased (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Assertionbased (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ParellelExecution (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">EARTH</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Modulus</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Negate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Sub</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">JUPITER</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Powerof1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">division</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invert</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">MARS</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Multiplication</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Powerof</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Calculator');
+function tableData_Calculator() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(57);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Add')
+data.setCell(0, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(0, 3, 54);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Negate')
+data.setCell(1, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Modulus')
+data.setCell(2, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(2, 3, 13);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Multiplication')
+data.setCell(3, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(3, 3, 12);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Modulus')
+data.setCell(4, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(4, 3, 11);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Multiplication')
+data.setCell(5, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(5, 3, 11);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Powerof')
+data.setCell(6, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(6, 3, 10);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Sub')
+data.setCell(7, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(7, 3, 9);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Negate')
+data.setCell(8, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(8, 3, 9);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Multiplication')
+data.setCell(9, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(9, 3, 7);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Sub')
+data.setCell(10, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(10, 3, 7);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Negate')
+data.setCell(11, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(11, 3, 7);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invert')
+data.setCell(12, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(12, 3, 7);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Negate')
+data.setCell(13, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(13, 3, 6);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Modulus')
+data.setCell(14, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(14, 3, 6);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Modulus')
+data.setCell(15, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(15, 3, 6);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Add')
+data.setCell(16, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(16, 3, 6);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'division')
+data.setCell(17, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(17, 3, 5);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Powerof1')
+data.setCell(18, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(18, 3, 5);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Powerof1')
+data.setCell(19, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(19, 3, 5);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Powerof')
+data.setCell(20, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(20, 3, 5);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Add')
+data.setCell(21, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(21, 3, 5);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Add')
+data.setCell(22, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(22, 3, 5);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Negate')
+data.setCell(23, 2, 'com.testexecution.java.CalcParellel2')
+data.setCell(23, 3, 5);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'invert')
+data.setCell(24, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(24, 3, 4);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Multiplication')
+data.setCell(25, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(25, 3, 4);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'division')
+data.setCell(26, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(26, 3, 4);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Sub')
+data.setCell(27, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(27, 3, 4);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'invert')
+data.setCell(28, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(28, 3, 4);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Sub')
+data.setCell(29, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(29, 3, 4);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Sub')
+data.setCell(30, 2, 'com.testexecution.java.MathOpr')
+data.setCell(30, 3, 4);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'invert')
+data.setCell(31, 2, 'com.testexecution.java.CalcParellel2')
+data.setCell(31, 3, 4);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Modulus')
+data.setCell(32, 2, 'com.testexecution.java.CalculatortestNgparameter')
+data.setCell(32, 3, 3);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Negate')
+data.setCell(33, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(33, 3, 3);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Powerof1')
+data.setCell(34, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(34, 3, 3);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'invert')
+data.setCell(35, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(35, 3, 3);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Sub')
+data.setCell(36, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(36, 3, 3);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Powerof')
+data.setCell(37, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(37, 3, 3);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Powerof')
+data.setCell(38, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(38, 3, 3);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Modulus')
+data.setCell(39, 2, 'com.testexecution.java.MathOpr')
+data.setCell(39, 3, 3);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Powerof1')
+data.setCell(40, 2, 'com.testexecution.java.MathOpr')
+data.setCell(40, 3, 3);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Add')
+data.setCell(41, 2, 'com.testexecution.java.MathOpr')
+data.setCell(41, 3, 3);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'invert')
+data.setCell(42, 2, 'com.testexecution.java.MathOpr')
+data.setCell(42, 3, 3);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'div')
+data.setCell(43, 2, 'com.testexecution.java.MathOpr')
+data.setCell(43, 3, 3);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Multiplication')
+data.setCell(44, 2, 'com.testexecution.java.MathOpr')
+data.setCell(44, 3, 3);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Negate')
+data.setCell(45, 2, 'com.testexecution.java.MathOpr')
+data.setCell(45, 3, 3);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Sub')
+data.setCell(46, 2, 'com.testexecution.java.CalcParellel1')
+data.setCell(46, 3, 3);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Add')
+data.setCell(47, 2, 'com.testexecution.java.CalcParellel1')
+data.setCell(47, 3, 3);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'div')
+data.setCell(48, 2, 'com.testexecution.java.CalcParellel1')
+data.setCell(48, 3, 3);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'Powerof1')
+data.setCell(49, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(49, 3, 2);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'division')
+data.setCell(50, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(50, 3, 2);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'division')
+data.setCell(51, 2, 'com.testexecution.java.MathsDataprovider')
+data.setCell(51, 3, 2);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Powerof')
+data.setCell(52, 2, 'com.testexecution.java.MathOpr')
+data.setCell(52, 3, 2);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Multiplication')
+data.setCell(53, 2, 'com.testexecution.java.CalcParellel1')
+data.setCell(53, 3, 2);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Powerof1')
+data.setCell(54, 2, 'com.testexecution.java.CalcParellel2')
+data.setCell(54, 3, 2);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'Powerof')
+data.setCell(55, 2, 'com.testexecution.java.CalcParellel2')
+data.setCell(55, 3, 2);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'Modulus')
+data.setCell(56, 2, 'com.testexecution.java.CalcParellel2')
+data.setCell(56, 3, 2);
+window.suiteTableData['Calculator']= { tableData: data, tableDiv: 'times-div-Calculator'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 334 ms</span>
+              <div id="times-div-Calculator">
+              </div> <!-- times-div-Calculator -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof(2.0, 9.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power of  Function executed  512.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus(40, 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus Function executed  0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub(40, 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed  20</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add(40, 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Addition Function executed  60</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate(40.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negat Function executed  -40.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Multiplication(2, 9)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Multiplication Function executed  18</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub(40, 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed  20</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus(40, 20)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus Function executed  0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate(40.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negat Function executed  -40.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">division(40.0, 20.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Division Function executed  2.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invert(40.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inverse Function executed  0.025</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof1(2.0, 9.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power Function executed  512.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof1(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power Function executed3.486784401E19</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate(4)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negat Function executed-4.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Multiplication(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Multiplication Function executed8</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Multiplication(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Multiplication Function executed900</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate(25)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negat Function executed-25.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Multiplication(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Multiplication Function executed16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus Function executed0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus Function executed0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate(50)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negat Function executed-50.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof1(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power Function executed16.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus Function executed0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof1(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power Function executed64.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invert(4)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inverse Function executed0.25</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestNG_ReportsAndLogs -> Add100</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power of  Function executed16.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed80</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power of  Function executed64.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestNG_ReportsAndLogs -> Add10</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">division(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Division Function executed9.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invert(50)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inverse Function executed0.02</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invert(25)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inverse Function executed0.04</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof(90, 10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power of  Function executed3.486784401E19</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">division(8, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Division Function executed4.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">division(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Division Function executed2.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add(4, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestNG_ReportsAndLogs -> Add6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus Function executed  3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power Function executed  256.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestNG_ReportsAndLogs -> Add60</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Power of  Function executed  81.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed  1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Inverse Function executed  0.00641025641025641</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">div</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Division Function executed  22.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Multiplication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Multiplication Function executed  20</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">negat Function executed  -178.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Multiplication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Multipication executed  20</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Sub</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Substraction Function executed  1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Exponent Function executed  256.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AdditionFunction executed  80</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Powerof</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Exponent Function executed  81.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Negate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negate Function executed  -178.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">div</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Division Function executed  22.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Invertion  Function executed  0.02</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Modulus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Modulus  Function executed  3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">15 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testexecution.java.CalculatortestNgparameter</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">invert</span>
+                <br/>
+                <span class="ignored-method-name">invert</span>
+                <br/>
+                <span class="ignored-method-name">Sub</span>
+                <br/>
+                <span class="ignored-method-name">Add</span>
+                <br/>
+                <span class="ignored-method-name">Add</span>
+                <br/>
+                <span class="ignored-method-name">Powerof</span>
+                <br/>
+                <span class="ignored-method-name">Powerof</span>
+                <br/>
+                <span class="ignored-method-name">Multiplication</span>
+                <br/>
+                <span class="ignored-method-name">Multiplication</span>
+                <br/>
+                <span class="ignored-method-name">Powerof1</span>
+                <br/>
+                <span class="ignored-method-name">Powerof1</span>
+                <br/>
+                <span class="ignored-method-name">division</span>
+                <br/>
+                <span class="ignored-method-name">division</span>
+                <br/>
+                <span class="ignored-method-name">Modulus</span>
+                <br/>
+                <span class="ignored-method-name">Negate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testexecution.java.CalculatortestNgparameter</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Add(40, 20)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Modulus(40, 20)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Multiplication(2, 9)</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Negate(40.0)</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof(2.0, 9.0)</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub(40, 20)</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Modulus(40, 20)</span>
+                <span class="method-start">645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Negate(40.0)</span>
+                <span class="method-start">654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub(40, 20)</span>
+                <span class="method-start">668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Powerof1(2.0, 9.0)</span>
+                <span class="method-start">726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">division(40.0, 20.0)</span>
+                <span class="method-start">741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invert(40.0)</span>
+                <span class="method-start">751 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testexecution.java.MathsDataprovider</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add(4, 2)</span>
+                <span class="method-start">827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add(8, 2)</span>
+                <span class="method-start">844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add(90, 10)</span>
+                <span class="method-start">878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Modulus(4, 2)</span>
+                <span class="method-start">919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Modulus(8, 2)</span>
+                <span class="method-start">965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Modulus(90, 10)</span>
+                <span class="method-start">1000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Multiplication(4, 2)</span>
+                <span class="method-start">1030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Multiplication(8, 2)</span>
+                <span class="method-start">1047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Multiplication(90, 10)</span>
+                <span class="method-start">1060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Negate(4)</span>
+                <span class="method-start">1098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Negate(25)</span>
+                <span class="method-start">1114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Negate(50)</span>
+                <span class="method-start">1132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Powerof(4, 2)</span>
+                <span class="method-start">1142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Powerof(8, 2)</span>
+                <span class="method-start">1152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Powerof(90, 10)</span>
+                <span class="method-start">1162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof1(4, 2)</span>
+                <span class="method-start">1171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof1(8, 2)</span>
+                <span class="method-start">1181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof1(90, 10)</span>
+                <span class="method-start">1188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sub(4, 2)</span>
+                <span class="method-start">1195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sub(8, 2)</span>
+                <span class="method-start">1201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sub(90, 10)</span>
+                <span class="method-start">1216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">division(4, 2)</span>
+                <span class="method-start">1227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">division(8, 2)</span>
+                <span class="method-start">1232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">division(90, 10)</span>
+                <span class="method-start">1237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invert(4)</span>
+                <span class="method-start">1247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invert(25)</span>
+                <span class="method-start">1255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invert(50)</span>
+                <span class="method-start">1272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testexecution.java.MathOpr</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Add</span>
+                <span class="method-start">1456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Modulus</span>
+                <span class="method-start">1465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Multiplication</span>
+                <span class="method-start">1471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Negate</span>
+                <span class="method-start">1478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof</span>
+                <span class="method-start">1484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof1</span>
+                <span class="method-start">1489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub</span>
+                <span class="method-start">1495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">div</span>
+                <span class="method-start">1502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invert</span>
+                <span class="method-start">1509 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testexecution.java.CalcParellel1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Add</span>
+                <span class="method-start">1609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Multiplication</span>
+                <span class="method-start">1617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub</span>
+                <span class="method-start">1621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">div</span>
+                <span class="method-start">1626 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testexecution.java.CalcParellel2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Modulus</span>
+                <span class="method-start">1636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Negate</span>
+                <span class="method-start">1643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof</span>
+                <span class="method-start">1652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Powerof1</span>
+                <span class="method-start">1657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invert</span>
+                <span class="method-start">1662 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

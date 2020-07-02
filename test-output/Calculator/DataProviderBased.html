@@ -1,0 +1,822 @@
+<html>
+<head>
+<title>TestNG:  DataProviderBased</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DataProviderBased</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 03 03:55:58 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (479 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Add()'><b>Add</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-1002916953" onClick='toggleBox("Output-1002916953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1002916953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1002916953">
+TestNG_ReportsAndLogs -> Add6<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [6]
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1002916953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1002916953'><pre>java.lang.AssertionError: expected [60] but found [6]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Add()'><b>Add</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-819086463" onClick='toggleBox("Output-819086463", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-819086463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-819086463">
+TestNG_ReportsAndLogs -> Add10<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [10]
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace819086463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace819086463'><pre>java.lang.AssertionError: expected [60] but found [10]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Add()'><b>Add</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-2059629607" onClick='toggleBox("Output-2059629607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2059629607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2059629607">
+TestNG_ReportsAndLogs -> Add100<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [100]
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2059629607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2059629607'><pre>java.lang.AssertionError: expected [60] but found [100]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Powerof()'><b>Powerof</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-2011504003" onClick='toggleBox("Output-2011504003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2011504003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2011504003">
+Power of  Function executed16.0<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2011504003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2011504003'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Powerof()'><b>Powerof</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-574554263" onClick='toggleBox("Output-574554263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-574554263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-574554263">
+Power of  Function executed64.0<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace574554263", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace574554263'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Powerof()'><b>Powerof</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-1127530534" onClick='toggleBox("Output-1127530534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1127530534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1127530534">
+Power of  Function executed3.486784401E19<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1127530534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1127530534'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Sub()'><b>Sub</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-1858042830" onClick='toggleBox("Output-1858042830", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1858042830" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1858042830">
+Substraction Function executed2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [2]
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1858042830", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1858042830'><pre>java.lang.AssertionError: expected [60] but found [2]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Sub()'><b>Sub</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-1770433480" onClick='toggleBox("Output-1770433480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1770433480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1770433480">
+Substraction Function executed6<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [6]
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1770433480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1770433480'><pre>java.lang.AssertionError: expected [60] but found [6]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Sub()'><b>Sub</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-1141654506" onClick='toggleBox("Output-1141654506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1141654506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1141654506">
+Substraction Function executed80<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [60] but found [80]
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1141654506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1141654506'><pre>java.lang.AssertionError: expected [60] but found [80]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.division()'><b>division</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-153902425" onClick='toggleBox("Output-153902425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-153902425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-153902425">
+Division Function executed2.0<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [22.0] but found [2.0]
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace153902425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace153902425'><pre>java.lang.AssertionError: expected [22.0] but found [2.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertEquals(Assert.java:640)
+	at org.testng.Assert.assertEquals(Assert.java:651)
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.division()'><b>division</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-1072237725" onClick='toggleBox("Output-1072237725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1072237725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1072237725">
+Division Function executed4.0<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [22.0] but found [4.0]
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1072237725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1072237725'><pre>java.lang.AssertionError: expected [22.0] but found [4.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertEquals(Assert.java:640)
+	at org.testng.Assert.assertEquals(Assert.java:651)
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.division()'><b>division</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-1121767249" onClick='toggleBox("Output-1121767249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1121767249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1121767249">
+Division Function executed9.0<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [22.0] but found [9.0]
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1121767249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1121767249'><pre>java.lang.AssertionError: expected [22.0] but found [9.0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertEquals(Assert.java:640)
+	at org.testng.Assert.assertEquals(Assert.java:651)
+	at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.invert()'><b>invert</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4<br/>
+<a href="#Output-1291413691" onClick='toggleBox("Output-1291413691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1291413691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1291413691">
+Inverse Function executed0.25<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [0.99] but found [0.25]
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1291413691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1291413691'><pre>java.lang.AssertionError: expected [0.99] but found [0.25]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertEquals(Assert.java:640)
+	at org.testng.Assert.assertEquals(Assert.java:651)
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.invert()'><b>invert</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 25<br/>
+<a href="#Output-1298309292" onClick='toggleBox("Output-1298309292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1298309292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1298309292">
+Inverse Function executed0.04<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [0.99] but found [0.04]
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1298309292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1298309292'><pre>java.lang.AssertionError: expected [0.99] but found [0.04]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertEquals(Assert.java:640)
+	at org.testng.Assert.assertEquals(Assert.java:651)
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.invert()'><b>invert</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 50<br/>
+<a href="#Output-1774979297" onClick='toggleBox("Output-1774979297", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1774979297" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1774979297">
+Inverse Function executed0.02<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [0.99] but found [0.02]
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1774979297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1774979297'><pre>java.lang.AssertionError: expected [0.99] but found [0.02]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:968)
+	at org.testng.Assert.assertEquals(Assert.java:640)
+	at org.testng.Assert.assertEquals(Assert.java:651)
+	at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</pre></div></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Modulus()'><b>Modulus</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-231706776" onClick='toggleBox("Output-231706776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-231706776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-231706776">
+Modulus Function executed0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Modulus()'><b>Modulus</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-1287510221" onClick='toggleBox("Output-1287510221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1287510221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1287510221">
+Modulus Function executed0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Modulus()'><b>Modulus</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-759099185" onClick='toggleBox("Output-759099185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-759099185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-759099185">
+Modulus Function executed0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Multiplication()'><b>Multiplication</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-1689136038" onClick='toggleBox("Output-1689136038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1689136038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1689136038">
+Multiplication Function executed8<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Multiplication()'><b>Multiplication</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-353643771" onClick='toggleBox("Output-353643771", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-353643771" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353643771">
+Multiplication Function executed16<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Multiplication()'><b>Multiplication</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-927851812" onClick='toggleBox("Output-927851812", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-927851812" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-927851812">
+Multiplication Function executed900<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Negate()'><b>Negate</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4<br/>
+<a href="#Output-340592362" onClick='toggleBox("Output-340592362", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-340592362" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-340592362">
+Negat Function executed-4.0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Negate()'><b>Negate</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 25<br/>
+<a href="#Output-2146092003" onClick='toggleBox("Output-2146092003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2146092003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2146092003">
+Negat Function executed-25.0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Negate()'><b>Negate</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 50<br/>
+<a href="#Output-908134484" onClick='toggleBox("Output-908134484", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-908134484" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-908134484">
+Negat Function executed-50.0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Powerof1()'><b>Powerof1</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 4, 2<br/>
+<a href="#Output-198896556" onClick='toggleBox("Output-198896556", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-198896556" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-198896556">
+Power Function executed16.0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Powerof1()'><b>Powerof1</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 8, 2<br/>
+<a href="#Output-30105172" onClick='toggleBox("Output-30105172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30105172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30105172">
+Power Function executed64.0<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+<tr>
+<td title='com.testexecution.java.MathsDataprovider.Powerof1()'><b>Powerof1</b><br>Test class: com.testexecution.java.MathsDataprovider<br>Parameters: 90, 10<br/>
+<a href="#Output-1679530939" onClick='toggleBox("Output-1679530939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1679530939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1679530939">
+Power Function executed3.486784401E19<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testexecution.java.MathsDataprovider@6973bf95</td></tr>
+</table><p>
+</body>
+</html>

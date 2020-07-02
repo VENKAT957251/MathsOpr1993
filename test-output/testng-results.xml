@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="15" total="72" passed="33" failed="24" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Addition Function executed  60]]>
+    </line>
+    <line>
+      <![CDATA[Modulus Function executed  0]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication Function executed  18]]>
+    </line>
+    <line>
+      <![CDATA[Negat Function executed  -40.0]]>
+    </line>
+    <line>
+      <![CDATA[Power of  Function executed  512.0]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed  20]]>
+    </line>
+    <line>
+      <![CDATA[Modulus Function executed  0]]>
+    </line>
+    <line>
+      <![CDATA[Negat Function executed  -40.0]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed  20]]>
+    </line>
+    <line>
+      <![CDATA[Power Function executed  512.0]]>
+    </line>
+    <line>
+      <![CDATA[Division Function executed  2.0]]>
+    </line>
+    <line>
+      <![CDATA[Inverse Function executed  0.025]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Add6]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Add10]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Add100]]>
+    </line>
+    <line>
+      <![CDATA[Modulus Function executed0]]>
+    </line>
+    <line>
+      <![CDATA[Modulus Function executed0]]>
+    </line>
+    <line>
+      <![CDATA[Modulus Function executed0]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication Function executed8]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication Function executed16]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication Function executed900]]>
+    </line>
+    <line>
+      <![CDATA[Negat Function executed-4.0]]>
+    </line>
+    <line>
+      <![CDATA[Negat Function executed-25.0]]>
+    </line>
+    <line>
+      <![CDATA[Negat Function executed-50.0]]>
+    </line>
+    <line>
+      <![CDATA[Power of  Function executed16.0]]>
+    </line>
+    <line>
+      <![CDATA[Power of  Function executed64.0]]>
+    </line>
+    <line>
+      <![CDATA[Power of  Function executed3.486784401E19]]>
+    </line>
+    <line>
+      <![CDATA[Power Function executed16.0]]>
+    </line>
+    <line>
+      <![CDATA[Power Function executed64.0]]>
+    </line>
+    <line>
+      <![CDATA[Power Function executed3.486784401E19]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed2]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed6]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed80]]>
+    </line>
+    <line>
+      <![CDATA[Division Function executed2.0]]>
+    </line>
+    <line>
+      <![CDATA[Division Function executed4.0]]>
+    </line>
+    <line>
+      <![CDATA[Division Function executed9.0]]>
+    </line>
+    <line>
+      <![CDATA[Inverse Function executed0.25]]>
+    </line>
+    <line>
+      <![CDATA[Inverse Function executed0.04]]>
+    </line>
+    <line>
+      <![CDATA[Inverse Function executed0.02]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Add60]]>
+    </line>
+    <line>
+      <![CDATA[Modulus Function executed  3]]>
+    </line>
+    <line>
+      <![CDATA[Multiplication Function executed  20]]>
+    </line>
+    <line>
+      <![CDATA[negat Function executed  -178.0]]>
+    </line>
+    <line>
+      <![CDATA[Power of  Function executed  81.0]]>
+    </line>
+    <line>
+      <![CDATA[Power Function executed  256.0]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed  1]]>
+    </line>
+    <line>
+      <![CDATA[Division Function executed  22.0]]>
+    </line>
+    <line>
+      <![CDATA[Inverse Function executed  0.00641025641025641]]>
+    </line>
+    <line>
+      <![CDATA[AdditionFunction executed  80]]>
+    </line>
+    <line>
+      <![CDATA[Multipication executed  20]]>
+    </line>
+    <line>
+      <![CDATA[Substraction Function executed  1]]>
+    </line>
+    <line>
+      <![CDATA[Division Function executed  22.0]]>
+    </line>
+    <line>
+      <![CDATA[Modulus  Function executed  3]]>
+    </line>
+    <line>
+      <![CDATA[Negate Function executed  -178.0]]>
+    </line>
+    <line>
+      <![CDATA[Exponent Function executed  81.0]]>
+    </line>
+    <line>
+      <![CDATA[Exponent Function executed  256.0]]>
+    </line>
+    <line>
+      <![CDATA[Invertion  Function executed  0.02]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-07-03T03:55:57 IST" name="Calculator" finished-at="2020-07-03T03:55:59 IST" duration-ms="1831">
+    <groups>
+      <group name="EARTH">
+        <method signature="CalculatortestNgparameter.Modulus(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" name="Modulus" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Negate(double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" name="Negate" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Sub(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" name="Sub" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Modulus(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@37918c79]" name="Modulus" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Negate(double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@37918c79]" name="Negate" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Sub(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@37918c79]" name="Sub" class="com.testexecution.java.CalculatortestNgparameter"/>
+      </group> <!-- EARTH -->
+      <group name="MARS">
+        <method signature="CalculatortestNgparameter.Add(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" name="Add" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Multiplication(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" name="Multiplication" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.Powerof(double, double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" name="Powerof" class="com.testexecution.java.CalculatortestNgparameter"/>
+      </group> <!-- MARS -->
+      <group name="JUPITER">
+        <method signature="CalculatortestNgparameter.Powerof1(double, double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@222114ba]" name="Powerof1" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.division(double, double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@222114ba]" name="division" class="com.testexecution.java.CalculatortestNgparameter"/>
+        <method signature="CalculatortestNgparameter.invert(double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@222114ba]" name="invert" class="com.testexecution.java.CalculatortestNgparameter"/>
+      </group> <!-- JUPITER -->
+    </groups>
+    <test started-at="2020-07-03T03:55:57 IST" name="ParameterAndIncludeGrp" finished-at="2020-07-03T03:55:57 IST" duration-ms="386">
+      <class name="com.testexecution.java.CalculatortestNgparameter">
+        <test-method signature="Add(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" started-at="2020-07-03T03:55:57 IST" name="Add" finished-at="2020-07-03T03:55:57 IST" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Addition Function executed  60]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="Modulus(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" started-at="2020-07-03T03:55:57 IST" name="Modulus" finished-at="2020-07-03T03:55:57 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus Function executed  0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Multiplication(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" started-at="2020-07-03T03:55:57 IST" name="Multiplication" finished-at="2020-07-03T03:55:57 IST" duration-ms="7" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [512] but found [18]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [512] but found [18]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.CalculatortestNgparameter.Multiplication(CalculatortestNgparameter.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication Function executed  18]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Negate(double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" started-at="2020-07-03T03:55:57 IST" name="Negate" finished-at="2020-07-03T03:55:57 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.testexecution.java.CalculatortestNgparameter.Negate(CalculatortestNgparameter.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Negat Function executed  -40.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Powerof(double, double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" started-at="2020-07-03T03:55:57 IST" name="Powerof" finished-at="2020-07-03T03:55:57 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Power of  Function executed  512.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof -->
+        <test-method signature="Sub(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@527e5409]" started-at="2020-07-03T03:55:57 IST" name="Sub" finished-at="2020-07-03T03:55:57 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed  20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+      </class> <!-- com.testexecution.java.CalculatortestNgparameter -->
+    </test> <!-- ParameterAndIncludeGrp -->
+    <test started-at="2020-07-03T03:55:58 IST" name="ParameterandExcludeGrp" finished-at="2020-07-03T03:55:58 IST" duration-ms="42">
+      <class name="com.testexecution.java.CalculatortestNgparameter">
+        <test-method signature="Modulus(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@37918c79]" started-at="2020-07-03T03:55:58 IST" name="Modulus" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus Function executed  0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Negate(double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@37918c79]" started-at="2020-07-03T03:55:58 IST" name="Negate" finished-at="2020-07-03T03:55:58 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.testexecution.java.CalculatortestNgparameter.Negate(CalculatortestNgparameter.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Negat Function executed  -40.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Sub(int, int)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@37918c79]" started-at="2020-07-03T03:55:58 IST" name="Sub" finished-at="2020-07-03T03:55:58 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed  20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+      </class> <!-- com.testexecution.java.CalculatortestNgparameter -->
+    </test> <!-- ParameterandExcludeGrp -->
+    <test started-at="2020-07-03T03:55:58 IST" name="ParameterandIncludeGrp_JUPITER" finished-at="2020-07-03T03:55:58 IST" duration-ms="43">
+      <class name="com.testexecution.java.CalculatortestNgparameter">
+        <test-method signature="Powerof1(double, double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@222114ba]" started-at="2020-07-03T03:55:58 IST" name="Powerof1" finished-at="2020-07-03T03:55:58 IST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.testexecution.java.CalculatortestNgparameter.Powerof1(CalculatortestNgparameter.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Power Function executed  512.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof1 -->
+        <test-method signature="division(double, double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@222114ba]" started-at="2020-07-03T03:55:58 IST" name="division" finished-at="2020-07-03T03:55:58 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Division Function executed  2.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="invert(double)[pri:0, instance:com.testexecution.java.CalculatortestNgparameter@222114ba]" started-at="2020-07-03T03:55:58 IST" name="invert" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse Function executed  0.025]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invert -->
+      </class> <!-- com.testexecution.java.CalculatortestNgparameter -->
+    </test> <!-- ParameterandIncludeGrp_JUPITER -->
+    <test started-at="2020-07-03T03:55:58 IST" name="DataProviderBased" finished-at="2020-07-03T03:55:58 IST" duration-ms="479">
+      <class name="com.testexecution.java.MathsDataprovider">
+        <test-method signature="Add(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Add" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [6]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Add6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="Add(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Add" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [10]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Add10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="Add(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Add" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [100]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [100]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathsDataprovider.Add(MathsDataprovider.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Add100]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="Modulus(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Modulus" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus Function executed0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Modulus(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Modulus" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus Function executed0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Modulus(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Modulus" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus Function executed0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Multiplication(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Multiplication" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication Function executed8]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Multiplication(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Multiplication" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication Function executed16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Multiplication(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Multiplication" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication Function executed900]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Negate(double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Negate" data-provider="inputs1" finished-at="2020-07-03T03:55:58 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negat Function executed-4.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Negate(double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Negate" data-provider="inputs1" finished-at="2020-07-03T03:55:58 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negat Function executed-25.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Negate(double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Negate" data-provider="inputs1" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negat Function executed-50.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Powerof(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Powerof" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Power of  Function executed16.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof -->
+        <test-method signature="Powerof(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Powerof" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Power of  Function executed64.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof -->
+        <test-method signature="Powerof(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Powerof" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.testexecution.java.MathsDataprovider.Powerof(MathsDataprovider.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Power of  Function executed3.486784401E19]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof -->
+        <test-method signature="Powerof1(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Powerof1" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Power Function executed16.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof1 -->
+        <test-method signature="Powerof1(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Powerof1" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Power Function executed64.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof1 -->
+        <test-method signature="Powerof1(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Powerof1" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Power Function executed3.486784401E19]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof1 -->
+        <test-method signature="Sub(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Sub" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [2]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+        <test-method signature="Sub(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Sub" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [6]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+        <test-method signature="Sub(int, int)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="Sub" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [60] but found [80]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [60] but found [80]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathsDataprovider.Sub(MathsDataprovider.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed80]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+        <test-method signature="division(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="division" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [22.0] but found [2.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [22.0] but found [2.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Division Function executed2.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="division(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="division" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [22.0] but found [4.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [22.0] but found [4.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Division Function executed4.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="division(double, double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="division" data-provider="inputs" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [22.0] but found [9.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [22.0] but found [9.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.MathsDataprovider.division(MathsDataprovider.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Division Function executed9.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="invert(double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="invert" data-provider="inputs1" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.99] but found [0.25]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.99] but found [0.25]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse Function executed0.25]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invert -->
+        <test-method signature="invert(double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="invert" data-provider="inputs1" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.99] but found [0.04]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.99] but found [0.04]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse Function executed0.04]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invert -->
+        <test-method signature="invert(double)[pri:0, instance:com.testexecution.java.MathsDataprovider@6973bf95]" started-at="2020-07-03T03:55:58 IST" name="invert" data-provider="inputs1" finished-at="2020-07-03T03:55:58 IST" duration-ms="7" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.99] but found [0.02]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.99] but found [0.02]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.MathsDataprovider.invert(MathsDataprovider.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse Function executed0.02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invert -->
+      </class> <!-- com.testexecution.java.MathsDataprovider -->
+    </test> <!-- DataProviderBased -->
+    <test started-at="2020-07-03T03:55:58 IST" name="Assertionbased" finished-at="2020-07-03T03:55:58 IST" duration-ms="66">
+      <class name="com.testexecution.java.MathOpr">
+        <test-method signature="Add()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Add" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Add60]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="Modulus()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Modulus" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus Function executed  3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Multiplication()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Multiplication" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [512] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [512] but found [20]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.testexecution.java.MathOpr.Multiplication(MathOpr.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Multiplication Function executed  20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Negate()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Negate" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.testexecution.java.MathOpr.Negate(MathOpr.java:123)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[negat Function executed  -178.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Powerof()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Powerof" finished-at="2020-07-03T03:55:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Power of  Function executed  81.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof -->
+        <test-method signature="Powerof1()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Powerof1" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Power Function executed  256.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof1 -->
+        <test-method signature="Sub()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="Sub" finished-at="2020-07-03T03:55:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed  1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+        <test-method signature="div()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="div" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Division Function executed  22.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method signature="invert()[pri:0, instance:com.testexecution.java.MathOpr@4445629]" started-at="2020-07-03T03:55:58 IST" name="invert" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inverse Function executed  0.00641025641025641]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invert -->
+      </class> <!-- com.testexecution.java.MathOpr -->
+    </test> <!-- Assertionbased -->
+    <test started-at="2020-07-03T03:55:58 IST" name="ParellelExecution" finished-at="2020-07-03T03:55:59 IST" duration-ms="116">
+      <class name="com.testexecution.java.CalcParellel2">
+        <test-method signature="Modulus()[pri:0, instance:com.testexecution.java.CalcParellel2@43301423]" started-at="2020-07-03T03:55:59 IST" name="Modulus" finished-at="2020-07-03T03:55:59 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [3] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [3] but found [3]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertNotEquals(Assert.java:1404)
+at org.testng.Assert.assertNotEquals(Assert.java:1409)
+at com.testexecution.java.CalcParellel2.Modulus(CalcParellel2.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Modulus  Function executed  3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Modulus -->
+        <test-method signature="Negate()[pri:0, instance:com.testexecution.java.CalcParellel2@43301423]" started-at="2020-07-03T03:55:59 IST" name="Negate" finished-at="2020-07-03T03:55:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Negate Function executed  -178.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Negate -->
+        <test-method signature="Powerof()[pri:0, instance:com.testexecution.java.CalcParellel2@43301423]" started-at="2020-07-03T03:55:59 IST" name="Powerof" finished-at="2020-07-03T03:55:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Exponent Function executed  81.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof -->
+        <test-method signature="Powerof1()[pri:0, instance:com.testexecution.java.CalcParellel2@43301423]" started-at="2020-07-03T03:55:59 IST" name="Powerof1" finished-at="2020-07-03T03:55:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Exponent Function executed  256.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Powerof1 -->
+        <test-method signature="invert()[pri:0, instance:com.testexecution.java.CalcParellel2@43301423]" started-at="2020-07-03T03:55:59 IST" name="invert" finished-at="2020-07-03T03:55:59 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.5] but found [0.02]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.5] but found [0.02]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.CalcParellel2.invert(CalcParellel2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Invertion  Function executed  0.02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invert -->
+      </class> <!-- com.testexecution.java.CalcParellel2 -->
+      <class name="com.testexecution.java.CalcParellel1">
+        <test-method signature="Add()[pri:0, instance:com.testexecution.java.CalcParellel1@3c9d0b9d]" started-at="2020-07-03T03:55:58 IST" name="Add" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AdditionFunction executed  80]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method signature="Multiplication()[pri:0, instance:com.testexecution.java.CalcParellel1@3c9d0b9d]" started-at="2020-07-03T03:55:58 IST" name="Multiplication" finished-at="2020-07-03T03:55:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Multipication executed  20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Sub()[pri:0, instance:com.testexecution.java.CalcParellel1@3c9d0b9d]" started-at="2020-07-03T03:55:58 IST" name="Sub" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Substraction Function executed  1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sub -->
+        <test-method signature="div()[pri:0, instance:com.testexecution.java.CalcParellel1@3c9d0b9d]" started-at="2020-07-03T03:55:58 IST" name="div" finished-at="2020-07-03T03:55:58 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [21.0] but found [22.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [21.0] but found [22.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at org.testng.Assert.assertEquals(Assert.java:651)
+at com.testexecution.java.CalcParellel1.div(CalcParellel1.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Division Function executed  22.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- div -->
+      </class> <!-- com.testexecution.java.CalcParellel1 -->
+    </test> <!-- ParellelExecution -->
+  </suite> <!-- Calculator -->
+</testng-results>
